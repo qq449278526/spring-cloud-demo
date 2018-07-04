@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iotek.dao.UserDao">
+    <select id="selectByPrimaryKey" parameterType="int" resultType="com.iotek.model.User">
+        select * from user where id = #{id}
+    </select>
+    <select id="selectByName" parameterType="String" resultType="com.iotek.model.User">
+        select * from user where name = #{name}
+    </select>
+</mapper>
