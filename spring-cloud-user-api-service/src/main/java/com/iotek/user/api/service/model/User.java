@@ -1,6 +1,8 @@
-package com.iotek.model;
+package com.iotek.user.api.service.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import io.swagger.annotations.ApiModel;
 
 import java.io.Serializable;
@@ -13,6 +15,7 @@ public class User implements Serializable{
      *
      * @mbggenerated Tue Jul 03 18:21:25 CST 2018
      */
+    @JsonSerialize(using = ToStringSerializer.class)
     private Integer id;
 
     /**
@@ -29,7 +32,6 @@ public class User implements Serializable{
      *
      * @mbggenerated Tue Jul 03 18:21:25 CST 2018
      */
-    @JsonIgnore
     private String pass;
 
     /**

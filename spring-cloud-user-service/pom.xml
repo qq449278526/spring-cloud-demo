@@ -72,7 +72,20 @@
             <artifactId>spring-cloud-config-client</artifactId>
             <version>2.0.0.RELEASE</version>
         </dependency>
-	</dependencies>
+
+		<!--服务注册依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.0.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.iotek</groupId>
+            <artifactId>spring-cloud-user-api-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 	<build>
 		<plugins>

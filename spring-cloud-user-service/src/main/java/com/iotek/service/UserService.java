@@ -1,6 +1,7 @@
 package com.iotek.service;
 
-import com.iotek.model.User;
+
+import com.iotek.user.api.service.model.User;
 
 /**
  * Created by 2018/7/3.

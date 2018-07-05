@@ -1,6 +1,6 @@
 package com.iotek.dao;
 
-import com.iotek.model.User;
+import com.iotek.user.api.service.model.User;
 import org.springframework.stereotype.Component;
 
 /**
