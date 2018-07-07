@@ -7,7 +7,12 @@
 	<artifactId>spring-cloud-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>spring-cloud-user-api-service</module>
+        <module>spring-cloud-eureka-server</module>
+        <module>spring-cloud-api-gateway</module>
+        <module>spring-cloud-config-server</module>
+		<module>spring-cloud-user-service</module>
+		<module>spring-cloud-user-web</module>
+        <module>spring-cloud-hystrix-dashboard</module>
     </modules>
     <packaging>pom</packaging>
 

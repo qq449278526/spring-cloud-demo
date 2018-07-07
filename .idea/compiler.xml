@@ -6,19 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-api-gateway" />
         <module name="spring-cloud-config-server" />
         <module name="spring-cloud-customer-service" />
         <module name="spring-cloud-eureka-server" />
+        <module name="spring-cloud-hystrix-dashboard" />
         <module name="spring-cloud-user-api-service" />
         <module name="spring-cloud-user-service" />
         <module name="spring-cloud-user-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-cloud-api-gateway" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
       <module name="spring-cloud-customer-service" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-cloud-hystrix-dashboard" target="1.8" />
       <module name="spring-cloud-user-api-service" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
       <module name="spring-cloud-user-web" target="1.8" />

@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by 2018/7/4.
  */
-//@RefreshScope
-//@RestController
+@RefreshScope
+@RestController
 public class TestController {
-//    @Value("${from}")
-//    private String from;
-//
-//    @GetMapping("/from")
-//    public String test(){
-//        return from;
-//    }
+    @Value("${from}")
+    private String from;
+
+    @GetMapping("/from")
+    public String test(){
+        return from;
+    }
 }

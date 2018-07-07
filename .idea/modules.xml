@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-api-gateway/spring-cloud-api-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-api-gateway/spring-cloud-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" group="spring-cloud-demo and modules" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-api-service/spring-cloud-user-api-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-api-service/spring-cloud-user-api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard/spring-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard/spring-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-api-service/spring-cloud-user-api-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-api-service/spring-cloud-user-api-service.iml" group="spring-cloud-demo and modules" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-web/spring-cloud-user-web.iml" filepath="$PROJECT_DIR$/spring-cloud-user-web/spring-cloud-user-web.iml" />
     </modules>
